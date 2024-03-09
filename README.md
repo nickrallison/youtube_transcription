@@ -12,7 +12,8 @@ ffmpeg
 
 ### Optional
 
-CUDA (12.1 Tested) -> (Link)[https://developer.nvidia.com/cuda-12-1-0-download-archive]
+CUDA (12.1 Tested and Verified as Functional) -> [Link](https://developer.nvidia.com/cuda-12-1-0-download-archive)
+
 To get GPU support run the following series of commands after installing requirements
 
 ```bash
