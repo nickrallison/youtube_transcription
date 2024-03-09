@@ -42,7 +42,7 @@ def transcribe_url(url, model="base"):
 if __name__ == '__main__':
     # From this page: https://pypi.org/project/openai-whisper/
     model = "large"  # tiny, base, small, medium, large
-    url = 'https://www.youtube.com/watch?v=IxNib6k5Qno'
+    url = 'https://www.youtube.com/watch?v=h6fcK_fRYaI'
     (transcript_filename, transcript) = transcribe_url(url, model)
 
     base_path = os.path.abspath(os.path.dirname(sys.argv[0]))
